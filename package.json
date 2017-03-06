@@ -1,0 +1,22 @@
+{
+  "name": "hmrissue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "jspm bundle systemjs-hot-reloader dist/bundle.js",
+    "bundle:dev": "jspm bundle systemjs-hot-reloader dist/bundle.js -d"
+  },
+  "jspm": {
+    "name": "hmrissue",
+    "main": "hmrissue.js",
+    "dependencies": {
+      "systemjs-hot-reloader": "npm:systemjs-hot-reloader@^1.1.0"
+    },
+    "devDependencies": {
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.21"
+    }
+  },
+  "author": "",
+  "license": "ISC"
+}
