@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "init" : "npm i && jspm install",
     "bundle": "jspm bundle systemjs-hot-reloader dist/bundle.js",
     "bundle:dev": "jspm bundle systemjs-hot-reloader dist/bundle.js -d"
   },
