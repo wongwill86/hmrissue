@@ -9,7 +9,7 @@
     "bundle:dev": "jspm bundle systemjs-hot-reloader dist/bundle.js -d"
   },
   "jspm": {
-    "name": "hmrissuesss",
+    "name": "hmrissuesss3333",
     "main": "hmrissue.js",
     "dependencies": {
       "systemjs-hot-reloader": "npm:systemjs-hot-reloader@^1.1.0"
